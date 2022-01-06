@@ -1,4 +1,6 @@
-console.log('Starting...')
+console.log('Memulai Bot...')
+console.log('kalo ada yang eror lapor aj')
+console.log('ᵇʸ ꧁ ʀιz𝒶ʟ ᴀ𝖓ᴅ ƒ ꧂')
 let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')
