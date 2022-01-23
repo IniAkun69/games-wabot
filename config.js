@@ -13,22 +13,8 @@ global.Owner = {
     isDev: true, // if true this number will send if bot have bug and developer mode true
     isReport: true, // if true this number will send if user use command /report or /join
     isCreator: true // if true this number will send if user use command /owner or /creator
-  },
-  '6285895897859': { // put your number here
-    name: 'Dave',
-    isDev: false, // if true this number will send if bot have bug and developer mode true
-    isReport: false, // if true this number will send if user use command /report or /join
-    isCreator: false // if true this number will send if user use command /owner or /creator
-  },
-  '6285895897859': {
-    name: 'Adi',
-    isReport: false, // if true this number will send if user use command /report or /join
-  },
-  '6285895897859': {
-    isReport: true
-  },
-  '13479805233': {} // ignore if you don't want anything, like name dll
-}
+  }
+}  
 global.mods = ['13479805233'] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
