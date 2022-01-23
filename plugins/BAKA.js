@@ -1,10 +1,13 @@
-let fetch = require('node-fetch')
-let handler = async(m, { conn }) => {
-  let res = await fetch('https://api.waifu.pics/nsfw/waifu')
-  if (!res.ok) throw await res.text()
-  let json = await res.json()
-  if (!json.url) throw 'Error!'
-  conn.sendFile(m.chat, json.url, '', 'F', m)
+let handler = async (m, { text }) => {
+  m.reply(`
+
+وَلَا تَقْرَبُوا۟ ٱلزِّنَىٰٓ ۖ إِنَّهُۥ كَانَ فَٰحِشَةً وَسَآءَ سَبِيلً
+
+Artinya: "Dan janganlah kamu mendekati zina, sesungguhnya zina adalah suatu perbuatan yang keji. Dan suatu jalan yang buruk." (QS. Al-Isra: 32).
+
+Baca artikel detiknews, "Surat Al-Isra Ayat 32, Tentang Larangan Mendekati Zina
+
+`)
 }
 handler.help = ['HENTAI']
 handler.tags = ['internet']
