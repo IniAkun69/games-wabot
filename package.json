@@ -1,6 +1,6 @@
 {
   "name": "R-BOT",
-  "version": "0.9.9",
+  "version": "1.0.0",
   "description": "Simple WhatsApp Bot",
   "depecrated": false,
   "main": "index.js",
